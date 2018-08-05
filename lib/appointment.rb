@@ -1,5 +1,6 @@
 class Appointment
   attr_accessor :patient, :name, :doctor
+  
   @@all = []
 
   def self.all
