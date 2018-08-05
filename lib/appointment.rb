@@ -7,7 +7,7 @@ class Appointment
   end
 
   def initialize(patient, doctor, date)
-    
+    @@all << self
   end
-  
+
 end
